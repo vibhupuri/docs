@@ -327,7 +327,7 @@ description: Learn how to use .NET to create a variety of applications on any pl
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="/aspnet/core/tutorials/your-first-mac-aspnet">
+                                                <a href="/aspnet/core/tutorials/razor-pages-vsc">
                                                     <h3>ASP.NET on macOS and Visual Studio Code</h3>
                                                     <p>Learn how to set up, build, and deploy ASP.NET Core apps on macOS with
                                                         Visual Studio Code.</p>
