@@ -1,13 +1,16 @@
 ---
-title: Architectural principles  
+title: Architectural principles
 description: Architect Modern Web Applications with ASP.NET Core and Azure | Architectural principles
 author: ardalis
 ms.author: wiwagn
 ms.date: 10/06/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.workload: 
+  - "dotnet"
+  - "dotnetcore"
 ---
-#Architectural Principles
+# Architectural Principles
 
 > "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization."  
 > _\- Gerald Weinberg_

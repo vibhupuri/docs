@@ -8,6 +8,8 @@ ms.date: 08/03/2017
 ms.topic: article
 ms.prod: .net-framework
 ms.devlang: dotnet
+ms.workload: 
+  - dotnet
 ---
 # Installation guide
 
@@ -29,4 +31,5 @@ You can install .NET Framework on various Windows versions.
 
 [Download the .NET Framework](https://www.microsoft.com/net/download/framework?utm_source=ms-docs&utm_medium=referral)  
 [Troubleshoot blocked .NET Framework installations and uninstallations](troubleshoot-blocked-installations-and-uninstallations.md)  
-[Install the .NET Framework for developers](guide-for-developers.md)
+[Install the .NET Framework for developers](guide-for-developers.md)  
+[Deploy the .NET Framework for developers](../deployment/deployment-guide-for-developers.md)  

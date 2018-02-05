@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: dotnet-bot
 ms.author: dotnetcontent
 manager: "wpickett"
+ms.workload: 
+  - dotnet
 ---
 # How to: Bind a Windows Forms Control to a Type Using the Designer
 When you are building controls that interact with data, you sometimes need to bind a control to a type, rather than an object. You typically need to bind a control to a type at design time, when data may not be available, but you still want your data-bound controls to display data from a type's public interface. The following procedures demonstrate how to create a new <xref:System.Windows.Forms.BindingSource> that is bound to a type, and then how to bind one of the type's properties to the <xref:System.Windows.Forms.TextBox.Text%2A> property of a <xref:System.Windows.Forms.TextBox>.  
@@ -26,7 +28,7 @@ When you are building controls that interact with data, you sometimes need to bi
   
 1.  Create a Windows Forms project.  
   
-     For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
+     For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/library/b2f93fed-c635-4705-8d0e-cf079a264efa).  
   
 2.  In **Design** view, drag a <xref:System.Windows.Forms.BindingSource> component onto the form.  
   

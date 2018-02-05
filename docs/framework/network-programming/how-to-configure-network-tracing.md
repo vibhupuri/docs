@@ -21,6 +21,8 @@ caps.latest.revision: 23
 author: "mcleblanc"
 ms.author: "markl"
 manager: "markl"
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Configure Network Tracing
 The application or computer configuration file holds the settings that determine the format and content of network traces. Before performing this procedure, be sure tracing is enabled. For information about enabling tracing, see [Enabling Network Tracing](../../../docs/framework/network-programming/enabling-network-tracing.md).  
@@ -104,4 +106,4 @@ The application or computer configuration file holds the settings that determine
  [Interpreting Network Tracing](../../../docs/framework/network-programming/interpreting-network-tracing.md)  
  [Network Tracing in the .NET Framework](../../../docs/framework/network-programming/network-tracing.md)  
  [Enabling Network Tracing](../../../docs/framework/network-programming/enabling-network-tracing.md)  
- [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/en-us/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)
+ [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/library/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)

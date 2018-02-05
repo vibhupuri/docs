@@ -19,6 +19,8 @@ caps.latest.revision: 39
 author: "dotnet-bot"
 ms.author: "dotnetcontent"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # Fundamental Windows Communication Foundation Concepts
 This document provides a high-level view of the [!INCLUDE[indigo1](../../../includes/indigo1-md.md)] architecture. It is intended to explain key concepts and how they fit together. For a tutorial on creating the simplest version of a [!INCLUDE[indigo2](../../../includes/indigo2-md.md)] service and client, see [Getting Started Tutorial](../../../docs/framework/wcf/getting-started-tutorial.md). To learn [!INCLUDE[indigo2](../../../includes/indigo2-md.md)] programming, see [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md).  
@@ -161,4 +163,4 @@ HTTPS://cohowinery:8005/ServiceModelSamples/CalculatorService
 ## See Also  
  [What Is Windows Communication Foundation](../../../docs/framework/wcf/whats-wcf.md)  
  [Windows Communication Foundation Architecture](../../../docs/framework/wcf/architecture.md)  
- [Security Architecture](http://msdn.microsoft.com/en-us/16593476-d36a-408d-808c-ae6fd483e28f)
+ [Security Architecture](http://msdn.microsoft.com/library/16593476-d36a-408d-808c-ae6fd483e28f)

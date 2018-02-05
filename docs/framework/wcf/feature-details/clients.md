@@ -14,6 +14,8 @@ caps.latest.revision: 7
 author: "dotnet-bot"
 ms.author: "dotnetcontent"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # Clients
 The topics in this section cover the client architecture, how to access a [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] service, how to configure a [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] client, and some security consideration for [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] clients.  
@@ -32,4 +34,4 @@ The topics in this section cover the client architecture, how to access a [!INCL
  Describes some security considerations for [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] clients.  
   
 ## See Also  
- [Client Samples](http://msdn.microsoft.com/en-us/849fc452-8718-4d4e-ba57-905eed943f63)
+ [Client Samples](http://msdn.microsoft.com/library/849fc452-8718-4d4e-ba57-905eed943f63)

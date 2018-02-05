@@ -27,6 +27,8 @@ caps.latest.revision: 7
 author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # ICorDebugBlockingObjectEnum::Next Method
 Gets the specified number of [CorDebugBlockingObject](../../../../docs/framework/unmanaged-api/debugging/cordebugblockingobject-structure.md) objects from the enumeration, starting at the current position.  
@@ -36,7 +38,7 @@ Gets the specified number of [CorDebugBlockingObject](../../../../docs/framework
 ```  
 HRESULT Next([in] ULONG  celt,  
              [out, size_is(celt), length_is(*pceltFetched)]  
-                           CorDebugBlockingOjbect values[],  
+                           CorDebugBlockingObject values[],  
              [out] ULONG *pceltFetched;  
 ```  
   

@@ -1,12 +1,14 @@
 ---
 title: dotnet command - .NET Core CLI
-description: Learn about the dotnet command (the generic driver for the .NET Core CLI tools) and its usage.  
+description: Learn about the dotnet command (the generic driver for the .NET Core CLI tools) and its usage.
 author: mairaw
 ms.author: mairaw
 ms.date: 08/14/2017
 ms.topic: article
 ms.prod: .net-core
 ms.technology: dotnet-cli
+ms.workload: 
+  - dotnetcore
 ---
 # dotnet command
 
@@ -40,7 +42,7 @@ The only time `dotnet` is used as a command on its own is to run [framework-depe
 
 # [.NET Core 2.x](#tab/netcore2x)
 
-`--additionaldeps <PATH>`
+`--additional-deps <PATH>`
 
 Path to additional *deps.json* file.
 

@@ -11,9 +11,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d618edd-0988-4ff2-8263-ce59448af7a5
 caps.latest.revision: 2
-author: "JennieHubbard"
-ms.author: "jhubbard"
-manager: "jhubbard"
+author: "douglaslMS"
+ms.author: "douglasl"
+manager: "craigg"
+ms.workload: 
+  - "dotnet"
 ---
 # Parameters (Entity SQL)
 Parameters are variables that are defined outside [!INCLUDE[esql](../../../../../../includes/esql-md.md)], usually through a binding API that is used by a host language. Each parameter has a name and a type. Parameter names are defined in query expressions with the at (@) symbol as a prefix. This disambiguates them from the names of properties or other names that are defined in the query.  

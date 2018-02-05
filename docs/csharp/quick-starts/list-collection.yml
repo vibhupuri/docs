@@ -1,18 +1,20 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Collections in C#
 metadata:
-  title:  Collections in C#. Learn to use sequences and collections in C#.
+  title:  Collections interactive tutorial - C# quickstarts
   description: In this tutorial, you'll use your browser to learn C# interactively. You write C# code and see the results of compiling and running your code directly in the browser.
   audience: Developer
+  ms.topic: get-started-article
   ms.custom: mvc
   level: Beginner
   displayType: two-column
   interactive: csharp
+  ms.prod: .net
+  ms.technology: devlang-csharp
 items:
 - durationInMinutes: 1
   content: |
-    This quick start teaches you C# interactively, using your browser to write C# code and see the results of compiling and running your code. It contains a series of lessons that create, modify and explore collections and arrays.
+    This quickstart teaches you C# interactively, using your browser to write C# code and see the results of compiling and running your code. It contains a series of lessons that create, modify and explore collections and arrays.
 - title: Create lists
   durationInMinutes: 2
   content: |
@@ -27,7 +29,7 @@ items:
     ```
 
     You've just created a list of strings, added three names to that list, and printed out the names in all CAPS. You're using concepts
-    that you've learned in earlier quick starts to loop through the list.
+    that you've learned in earlier quickstarts to loop through the list.
 
     The code to display names makes use of **interpolated strings**.  When you precede a `string` with the `$` character, you can embed C# code in the string declaration. The actual string replaces that C# code with the value it generates. In this example, it replaces the `{name.ToUpper()}` with each name, converted to capital letters, because you called the <xref:System.String.ToUpper%2A> method.
 
@@ -132,7 +134,7 @@ items:
 - title: Challenge
   durationInMinutes: 10
   content: |
-    See if you can put together some of the lessons from this and earlier lessons. Expand on what you've built so far with Fibonacci Numbers. Try and write the code to generate the first 20 numbers in the sequence.
+    See if you can put together some of the concepts from this and earlier lessons. Expand on what you've built so far with Fibonacci Numbers. Try and write the code to generate the first 20 numbers in the sequence. (As a hint, the 20th Fibonacci number is 6765.)
 
     > [!NOTE]
     > This online coding experience is in preview mode. If you encounter problems, please report them [on the dotnet/try repo](https://github.com/dotnet/try/issues).
@@ -162,7 +164,7 @@ items:
     > This online coding experience is in preview mode. If you encounter problems, please report them [on the dotnet/try repo](https://github.com/dotnet/try/issues).
     
 - content: |
-    You've completed the list quick start. This quick start is the final interactive quick start. You can continue these quickstarts on your own development environment. The .NET topic [Get Started in 10 minutes](https://www.microsoft.com/net/core) has instructions for setting up your local development environment. Once you've done that, continue with [Introduction to classes](introduction-to-classes.md) in your local environment.
+    You've completed the list quickstart. This quickstart is the final interactive quickstart. You can continue these quickstarts on your own development environment. Learn the basics of [local development](local-environment.md) and then pick a quickstart. You can try this same exercise, move directly to the next quickstart, or start again at with the [numbers in C#](numbers-in-csharp-local.md) quickstart.
 
     You can learn more about working with the `List` type in the
     [.NET Guide](../../standard/index.md) topic on [collections](../../standard/collections/index.md). You'll also learn about many other collection types.

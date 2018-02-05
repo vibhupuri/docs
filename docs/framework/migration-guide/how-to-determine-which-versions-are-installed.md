@@ -1,21 +1,23 @@
 ---
 title: "How to: Determine which .NET Framework versions are installed"
-ms.date: "10/17/2017"
+ms.date: "01/24/2018"
 ms.prod: ".net-framework"
 ms.technology: 
   - "dotnet-clr"
 ms.topic: "article"
-dev_langs:
- - "csharp"
- - "vb"
+dev_langs: 
+  - "csharp"
+  - "vb"
 ms.custom: "updateeachrelease"
 helpviewer_keywords: 
   - "versions, determining for .NET Framework"
   - ".NET Framework, determining version"
-ms.assetid: 40a67826-e4df-4f59-a651-d9eb0fdc755d 
+ms.assetid: 40a67826-e4df-4f59-a651-d9eb0fdc755d
 author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Determine Which .NET Framework Versions Are Installed
 Users can install and run multiple versions of the .NET Framework on their computers. When you develop or deploy your app, you might need to know which .NET Framework versions are installed on the user’s computer. Note that the .NET Framework consists of two main components, which are versioned separately:  
@@ -82,6 +84,8 @@ Users can install and run multiple versions of the .NET Framework on their compu
 
      The value of the `Release` DWORD indicates which version of the .NET Framework is installed.
 
+    [!INCLUDE[Release key values note](~/includes/version-keys-note.md)]
+
     |Value of the Release DWORD|Version|
     |--------------------------------|-------------|
     |378389|.NET Framework 4.5|
@@ -124,18 +128,20 @@ Users can install and run multiple versions of the .NET Framework on their compu
 
 2. Check the value of the `Release` keyword to determine the installed version. To be forward-compatible, you can check for a value greater than or equal to the values listed in the table. Here are the .NET Framework versions and associated `Release` keywords.
 
+    [!INCLUDE[DotNet Restore Note](~/includes/dotnet-restore-note.md)]
+
     |Version|Value of the Release DWORD|
     |-------------|--------------------------------|
     |.NET Framework 4.5|378389|
     |.NET Framework 4.5.1 installed with Windows 8.1|378675|
     |.NET Framework 4.5.1 installed on Windows 8, Windows 7 SP1, or Windows Vista SP2|378758|
     |.NET Framework 4.5.2|379893|
-    |[!INCLUDE[net_v46](../../../includes/net-v46-md.md)] installed with Windows 10|393295|
-    |[!INCLUDE[net_v46](../../../includes/net-v46-md.md)] installed on all other Windows OS versions|393297|
-    |[!INCLUDE[net_v461](../../../includes/net-v461-md.md)] installed on Windows 10|394254|
-    |[!INCLUDE[net_v461](../../../includes/net-v461-md.md)] installed on all other Windows OS versions|394271|
-    |[!INCLUDE[net_v462](../../../includes/net-v462-md.md)] installed on Windows 10 Anniversary Update|394802|
-    |[!INCLUDE[net_v462](../../../includes/net-v462-md.md)] installed on all other Windows OS versions|394806|
+    |.NET Framework 4.6 installed with Windows 10|393295|
+    |.NET Framework 4.6 installed on all other Windows OS versions|393297|
+    |.NET Framework 4.6.1 installed on Windows 10|394254|
+    |.NET Framework 4.6.1 installed on all other Windows OS versions|394271|
+    |.NET Framework 4.6.2 installed on Windows 10 Anniversary Update|394802|
+    |.NET Framework 4.6.2 installed on all other Windows OS versions|394806|
     |.NET Framework 4.7 installed on Windows 10 Creators Update|460798|
     |.NET Framework 4.7 installed on all other Windows OS versions|460805|
     |.NET Framework 4.7.1 installed on Windows 10 Fall Creators Update|461308|

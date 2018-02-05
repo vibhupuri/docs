@@ -11,9 +11,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7a808b00-9c3c-479a-aa94-717280fefd71
 caps.latest.revision: 2
-author: "JennieHubbard"
-ms.author: "jhubbard"
-manager: "jhubbard"
+author: "douglaslMS"
+ms.author: "douglasl"
+manager: "craigg"
+ms.workload: 
+  - "dotnet"
 ---
 # Object States and Change-Tracking
 [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)] objects always participate in some *state*. For example, when [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)] creates a new object, the object is in `Unchanged` state. A new object that you yourself create is unknown to the <xref:System.Data.Linq.DataContext> and is in `Untracked` state. Following successful execution of <xref:System.Data.Linq.DataContext.SubmitChanges%2A>, all objects known to [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)] are in `Unchanged` state. (The single exception is represented by those that have been successfully deleted from the database, which are in `Deleted` state and unusable in that <xref:System.Data.Linq.DataContext> instance.)  

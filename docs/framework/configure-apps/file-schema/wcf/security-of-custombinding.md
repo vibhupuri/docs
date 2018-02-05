@@ -14,6 +14,8 @@ caps.latest.revision: 24
 author: "BrucePerlerMS"
 ms.author: "bruceper"
 manager: "mbaldwin"
+ms.workload: 
+  - "dotnet"
 ---
 # &lt;security&gt; of &lt;customBinding&gt;
 Specifies the security options for a custom binding.  
@@ -40,8 +42,7 @@ messageProtectionOrder="SignBeforeEncrypt/SignBeforeEncryptAndEncryptSignature/E
    requireSecurityContextCancellation="Boolean"  
    requireSignatureConfirmation="Boolean"  
       securityHeaderLayout=  
-              "Strict/Lax/LaxTimestampFirst/LaxTimestampLast"  
-   includeTimestamp="Boolean">  
+              "Strict/Lax/LaxTimestampFirst/LaxTimestampLast">  
    <issuedTokenParameters />  
    <localClientSettings />  
    <localServiceSettings />  

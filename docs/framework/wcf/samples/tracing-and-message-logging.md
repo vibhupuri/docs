@@ -16,6 +16,8 @@ caps.latest.revision: 53
 author: "dotnet-bot"
 ms.author: "dotnetcontent"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # Tracing and Message Logging
 This sample demonstrates how to enable tracing and message logging. The resulting traces and message logs are viewed using the [Service Trace Viewer Tool (SvcTraceViewer.exe)](../../../../docs/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe.md). This sample is based on the [Getting Started](../../../../docs/framework/wcf/samples/getting-started-sample.md).  
@@ -74,7 +76,7 @@ This sample demonstrates how to enable tracing and message logging. The resultin
   <system.serviceModel>  
     <diagnostics>  
       <!-- Enable Message Logging here. -->  
-      <!-- log all messages received or sent at the transport or service model levels >  
+      <!-- log all messages received or sent at the transport or service model levels -->  
       <messageLogging logEntireMessage="true"  
                       maxMessagesToLog="300"  
                       logMessagesAtServiceLevel="true"  

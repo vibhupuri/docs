@@ -16,6 +16,8 @@ caps.latest.revision: 34
 author: "dotnet-bot"
 ms.author: "dotnetcontent"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # NetNamedPipeBinding
 This sample demonstrates the `netNamedPipeBinding` binding, which provides cross-process communication on the same machine. Named pipes do not work across machines. This sample is based on The [Getting Started](../../../../docs/framework/wcf/samples/getting-started-sample.md) calculator service.  
@@ -25,7 +27,7 @@ This sample demonstrates the `netNamedPipeBinding` binding, which provides cross
 > [!NOTE]
 >  The setup procedure and build instructions for this sample are located at the end of this topic.  
   
- The binding is specified in the configuration files for the client and service. The binding type is specified in the `binding` attribute of the[\<endpoint>](http://msdn.microsoft.com/en-us/13aa23b7-2f08-4add-8dbf-a99f8127c017) element as shown in the following sample configuration:  
+ The binding is specified in the configuration files for the client and service. The binding type is specified in the `binding` attribute of the[\<endpoint>](http://msdn.microsoft.com/library/13aa23b7-2f08-4add-8dbf-a99f8127c017) element as shown in the following sample configuration:  
   
 ```xml  
 <endpoint address="net.pipe://localhost/ServiceModelSamples/service"  

@@ -20,6 +20,8 @@ caps.latest.revision: 8
 author: "mcleblanc"
 ms.author: "markl"
 manager: "markl"
+ms.workload: 
+  - "dotnet"
 ---
 # &lt;specifiedPickupDirectory&gt; Element (Network Settings)
 Configures the local directory for a Simple Mail Transport Protocol (SMTP) server.  
@@ -45,7 +47,7 @@ Configures the local directory for a Simple Mail Transport Protocol (SMTP) serve
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`pickupDirectoryLocation`|The directory where applications save e-mail for later processing by the SMTP server.|  
+|`pickupDirectoryLocation`|The directory where applications save email for later processing by the SMTP server.|  
   
 ### Child Elements  
  None.  

@@ -17,6 +17,8 @@ caps.latest.revision: 4
 author: "dotnet-bot"
 ms.author: "dotnetcontent"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Create a Data Service Using an ADO.NET Entity Framework Data Source (WCF Data Services)
 [!INCLUDE[ssAstoria](../../../../includes/ssastoria-md.md)] exposes entity data as a data service. This entity data is provided by the [!INCLUDE[vstecado](../../../../includes/vstecado-md.md)][!INCLUDE[adonet_ef](../../../../includes/adonet-ef-md.md)] when the data source is a relational database. This topic shows you how to create an [!INCLUDE[adonet_ef](../../../../includes/adonet-ef-md.md)]-based data model in a [!INCLUDE[vs_current_short](../../../../includes/vs-current-short-md.md)] Web application that is based on an existing database and use this data model to create a new data service.  
@@ -50,7 +52,7 @@ manager: "wpickett"
   
 9. Click **Finish** to complete the wizard.  
   
-     This creates a default data model based on the specific database. The [!INCLUDE[adonet_ef](../../../../includes/adonet-ef-md.md)] enables to customize the data model. For more information, see [Tasks](http://msdn.microsoft.com/en-us/7166f1f1-4de8-4bd4-86b5-5e20a2ebaccb).  
+     This creates a default data model based on the specific database. The [!INCLUDE[adonet_ef](../../../../includes/adonet-ef-md.md)] enables to customize the data model. For more information, see [Tasks](http://msdn.microsoft.com/library/7166f1f1-4de8-4bd4-86b5-5e20a2ebaccb).  
   
 ### To create the data service by using the new data model  
   

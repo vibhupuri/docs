@@ -11,9 +11,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24a2d3e5-4af7-4f9a-ab7a-fe6684c9e4fe
 caps.latest.revision: 4
-author: "JennieHubbard"
-ms.author: "jhubbard"
-manager: "jhubbard"
+author: "douglaslMS"
+ms.author: "douglasl"
+manager: "craigg"
+ms.workload: 
+  - "dotnet"
 ---
 # Map Relations Specified for Nested Elements
 A schema can include an **msdata:Relationship** annotation to explicitly specify the mapping between any two elements in the schema. The two elements specified in **msdata:Relationship** can be nested in the schema, but do not have to be. The mapping process uses **msdata:Relationship** in the schema to generate the primary key/foreign key relationship between the two columns.  

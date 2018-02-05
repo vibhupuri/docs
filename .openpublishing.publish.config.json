@@ -10,7 +10,15 @@
       "Pdf",
       "Intellisense"
     ],
+    "ai-ebook": [
+      "Publish",
+      "Pdf"
+    ],    
     "master": [
+      "Publish",
+      "Pdf"
+    ],
+    "CITest": [
       "Publish",
       "Pdf"
     ]

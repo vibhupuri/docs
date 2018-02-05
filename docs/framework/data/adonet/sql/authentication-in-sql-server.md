@@ -11,9 +11,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 646ddbf5-dd4e-4285-8e4a-f565f666c5cc
 caps.latest.revision: 9
-author: "JennieHubbard"
-ms.author: "jhubbard"
-manager: "jhubbard"
+author: "douglaslMS"
+ms.author: "douglasl"
+manager: "craigg"
+ms.workload: 
+  - "dotnet"
 ---
 # Authentication in SQL Server
 [!INCLUDE[ssNoVersion](../../../../../includes/ssnoversion-md.md)] supports two authentication modes, Windows authentication mode and mixed mode.  

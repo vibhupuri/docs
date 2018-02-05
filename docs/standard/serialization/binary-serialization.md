@@ -1,6 +1,6 @@
 ---
 title: "Binary serialization"
-ms.date: "11/20/2017"
+ms.date: "01/02/2018"
 ms.prod: ".net"
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,6 +14,9 @@ ms.assetid: 2b1ea3be-1152-4032-b2b3-07794054c405
 caps.latest.revision: 5
 author: "ViktorHofer"
 ms.author: "mairaw"
+ms.workload: 
+  - "dotnet"
+  - "dotnetcore"
 ---
 # Binary serialization
 
@@ -85,7 +88,7 @@ As the nature of binary serialization allows the modification of private members
 - <xref:System.Collections.Specialized.StringCollection?displayProperty=nameWithType>   
 - <xref:System.Collections.Specialized.StringDictionary?displayProperty=nameWithType>   
 - <xref:System.Collections.Stack?displayProperty=nameWithType>   
-- `System.Collections.Generic.NonRandomizedStringEqualityComparer` <!--zz <xref:System.Collections.Generic.NonRandomizedStringEqualityComparer?displayProperty=fullName> --> (available in .NET Core 2.0.4 and later versions)
+- `System.Collections.Generic.NonRandomizedStringEqualityComparer` <!--zz <xref:System.Collections.Generic.NonRandomizedStringEqualityComparer?displayProperty=nameWithType> --> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.ComponentModel.BindingList%601?displayProperty=nameWithType>   
 - <xref:System.ComponentModel.DataAnnotations.ValidationException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.ComponentModel.Design.CheckoutException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
@@ -143,7 +146,7 @@ As the nature of binary serialization allows the modification of private members
 - <xref:System.DateTime?displayProperty=nameWithType>   
 - <xref:System.DateTimeOffset?displayProperty=nameWithType>   
 - <xref:System.Decimal?displayProperty=nameWithType>   
-- `System.Diagnostics.Contracts.ContractException` <!--zz <xref:System.Diagnostics.Contracts.ContractException?displayProperty=fullName> --> (available in .NET Core 2.0.4 and later versions)
+- `System.Diagnostics.Contracts.ContractException` <!--zz <xref:System.Diagnostics.Contracts.ContractException?displayProperty=nameWithType> --> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Diagnostics.Tracing.EventSourceException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.IO.DirectoryNotFoundException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.DirectoryServices.AccountManagement.MultipleMatchesException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
@@ -178,6 +181,7 @@ As the nature of binary serialization allows the modification of private members
 - <xref:System.DuplicateWaitObjectException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.EntryPointNotFoundException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Enum?displayProperty=nameWithType>   
+- <xref:System.EventArgs?displayProperty=nameWithType> (available in .NET Core 2.0.6 and later versions)
 - <xref:System.Exception?displayProperty=nameWithType>   
 - <xref:System.ExecutionEngineException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.FieldAccessException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
@@ -186,7 +190,7 @@ As the nature of binary serialization allows the modification of private members
 - <xref:System.Globalization.CultureNotFoundException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Globalization.SortVersion?displayProperty=nameWithType>   
 - <xref:System.Guid?displayProperty=nameWithType>   
-- `System.IO.Compression.ZLibException` <!--zz <xref:System.IO.Compression.ZLibException?displayProperty=fullName --> (available in .NET Core 2.0.4 and later versions)
+- `System.IO.Compression.ZLibException` <!--zz <xref:System.IO.Compression.ZLibException?displayProperty=nameWithType --> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.IO.DriveNotFoundException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.IO.EndOfStreamException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.IO.FileFormatException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
@@ -268,7 +272,7 @@ As the nature of binary serialization allows the modification of private members
 - <xref:System.Security.Authentication.InvalidCredentialException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Security.Cryptography.CryptographicException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Security.Cryptography.CryptographicUnexpectedOperationException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
-- `System.Security.Cryptography.Xml.CryptoSignedXmlRecursionException` <!--zz <xref:System.Security.Cryptography.Xml.CryptoSignedXmlRecursionException?displayProperty=fullName --> (available in .NET Core 2.0.4 and later versions)
+- `System.Security.Cryptography.Xml.CryptoSignedXmlRecursionException` <!--zz <xref:System.Security.Cryptography.Xml.CryptoSignedXmlRecursionException?displayProperty=nameWithType --> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Security.HostProtectionException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Security.Policy.PolicyException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
 - <xref:System.Security.Principal.IdentityNotMappedException?displayProperty=nameWithType> (available in .NET Core 2.0.4 and later versions)
@@ -366,8 +370,8 @@ As the nature of binary serialization allows the modification of private members
  [Security and Serialization](../../../docs/framework/misc/security-and-serialization.md)  
  Describes the secure coding guidelines to follow when writing code that performs serialization.  
   
- [Remote Objects](http://msdn.microsoft.com/en-us/515686e6-0a8d-42f7-8188-73abede57c58)  
+ [Remote Objects](http://msdn.microsoft.com/library/515686e6-0a8d-42f7-8188-73abede57c58)  
  Describes the various communications methods available in the .NET Framework for remote communications.  
   
- [XML Web Services Created Using ASP.NET and XML Web Service Clients](http://msdn.microsoft.com/en-us/1e64af78-d705-4384-b08d-591a45f4379c)  
+ [XML Web Services Created Using ASP.NET and XML Web Service Clients](http://msdn.microsoft.com/library/1e64af78-d705-4384-b08d-591a45f4379c)  
  Provides topics that describe and explain how to program XML Web services created using ASP.NET.
