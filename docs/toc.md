@@ -36,8 +36,8 @@
 ## [LINQ](standard/using-linq.md)
 ## [Common Type System & Common Language Specification](standard/common-type-system.md)
 ## [Asynchronous programming](standard/async.md)
-## [Asynchronous programming in depth](standard/async-in-depth.md)
-## [Asynchronous Programming Patterns](standard/asynchronous-programming-patterns/)
+### [Asynchronous programming in depth](standard/async-in-depth.md)
+### [Asynchronous Programming Patterns](standard/asynchronous-programming-patterns/)
 ## [Native interoperability](standard/native-interop.md)
 ## [Collections and Data Structures](standard/collections/)
 ## [Numerics in .NET](standard/numerics.md)
@@ -265,6 +265,7 @@
 ## [How To C# Topics](csharp/how-to/index.md)
 ### [How to parse strings using `String.Split`](csharp/how-to/parse-strings-using-split.md)
 ### [How to concatenate strings](csharp/how-to/concatenate-multiple-strings.md)
+### [How to convert a string to a DateTime](standard/base-types/parsing-datetime.md)
 <!-- End of C# Concepts section -->
 ## [The .NET Compiler Platform SDK (Roslyn APIs)](csharp/roslyn-sdk/)
 ## [C# Programming Guide](csharp/programming-guide/)
