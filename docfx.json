@@ -5,6 +5,11 @@
     "content": [
       {
         "files": [
+          "api/**/*.md"
+        ]
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
